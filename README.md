@@ -18,7 +18,8 @@ Linux中的文件依据用户与本文件的关系呈现出不同的被管理权
 `chown [-R] username filename`
 -R同上。
 #### 1.3.3 改变文件权限
-1.数字类型命令 `chmod [-R] xyz filename` r:4,w:2,x:1
+1.数字类型命令 `chmod [-R] xyz filename` r:4,w:2,x:1 
+
 2.符号类型命令 
 + `chmod [-R] u=rwx,go=rx filename` u:文件所有者,g:所属组,o:其他用户,a:所有用户
 + `chmod [-R] a+w filename` 给所有用户都加上写入权限
