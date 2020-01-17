@@ -153,3 +153,16 @@ rm [-fir] file/directory
 + basename path 得到文件名
 + dirname path 得到目录名
 ### 2.4 文件内容查阅
+#### 2.4.1 直接查看文件内容
++ cat [-AbEnTv] filename 正向列示
+  + -A 相当于-vET，可列出一些特殊字符
+  + -b 列出行号，仅针对非空白行做行号显示
+  + -E 将结尾的断行字符$显示出来
+  + -n 打印出行号，连同空白行也会有行号
+  + -T 将[Tab]按键以^I显示出来
+  + -v 
++ tac filename
++ nl [-bnw] filename
+  + -b
+  + -n
+  + -w
